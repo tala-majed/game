@@ -1,0 +1,181 @@
+
+  * {
+ 
+    font-family: Fantasy;
+    }
+  
+    header{
+      position: relative;
+      text-align: center;
+  }
+  
+    .container { width: 1000px; 
+      height: 600;
+      display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+      
+      } 
+
+      html{
+        height: 100%;
+      }
+    
+    body {
+     background-color: rgb(204, 199, 199);
+      align-items: center;
+     
+      
+      background: rgb(214,247,244);
+      background: linear-gradient(90deg, rgba(214,247,244,1) 0%, rgba(250,247,159,1) 50%, rgba(209,252,212,1) 100%);
+     
+      width: 100%;
+    }
+    
+    h1 {
+      text-transform: uppercase;
+      font-size: 40px;
+      color: rgb(136, 2, 2);
+    }
+
+    h3{
+      font-size: 30px;
+    } 
+
+    
+    .board {
+      
+      width: 540px;
+      height: 500px;
+      justify-content: center;
+      display: grid;
+       /* to allow large number of columns and rows to be written in a more compact form */
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      
+
+      background: #5762f7;
+    }
+    
+    .cell {
+      background: white;
+      border-radius: 50%;
+      border: 3px solid black;
+      content: '';
+      cursor: pointer;
+      height: 65px;
+      width: 65px;
+    }
+    
+    
+    
+      .taken { 
+      
+      } 
+      .player-one { 
+      background:red;
+      border-radius: 50%;
+      border: 3px solid black;
+      content: '';
+      cursor: pointer;
+      height: 65px;
+      width: 65px;
+      }
+      .player-two { 
+      background:yellow; 
+      border-radius: 50%;
+      border: 3px solid black;
+      content: '';
+      cursor: pointer;
+      height: 65px;
+      width: 65px;
+      } 
+
+      .reset-button{
+        width: 350px;
+        justify-content: right;
+        
+
+      } 
+
+      button {
+ 
+        border: none;
+       width: 150px;
+       height: 50px;
+        padding: 15px 38px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 3px 2px;
+      } 
+
+      #back {
+        width:120px;
+         height:50px;
+         text-align:center;
+        line-height:1.1em;
+         font-size:1.1em;
+        
+      }
+
+     
+
+      #players-button {
+        width: 100px;
+        height: 100px;
+        margin: 4px;
+      } 
+
+      #computer-button {
+        width: 800px;
+        height: 800px;
+        margin: 10px;
+
+      } 
+      .buttons-div{
+
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+   
+      }
+
+    .desc-div{
+      text-align: center;
+    } 
+
+    p{
+      font-size: 30px;
+    } 
+
+    p em {
+      color: #5762f7;
+    } 
+
+    .pieces{
+      display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content: space-between;
+   
+    }  
+
+    .pieces-2{
+     
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+     
+   
+    } 
+
+.main {
+  margin: auto;
+  text-align: center;
+width: 70%;
+}
